@@ -1,0 +1,26 @@
+## .NET / Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+
+## Rider
+.idea/
+
+## Secrets (NEVER commit API keys)
+appsettings.*.Local.json
+secrets.json
+.env
+
+## SQL LocalDB
+*.mdf
+*.ldf
+
+## Personal / local-only notes — never commit
+*.local.md
+.notes/
+PREP.md
